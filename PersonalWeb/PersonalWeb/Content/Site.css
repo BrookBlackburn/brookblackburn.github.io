@@ -1,0 +1,85 @@
+﻿body {
+    background-color: gainsboro;
+    padding-bottom: 500px;
+}
+.jumbotron {
+    background: url("https://newevolutiondesigns.com/images/freebies/city-wallpaper-36.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:1000px;
+    width: 100%;
+    margin-top:50px;
+}
+
+.navbar-font{
+    font-family:Copperplate, "Copperplate Gothic Light", fantasy;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+.footer-font{
+    color:gainsboro;
+}
+
+h1 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+    color:gainsboro;
+}
+h3 {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+    color:black;
+}
+p {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 2.0;
+    color: black;
+}
+blockquote {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 2.0;
+    color:black;
+}
+pre {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 2.0;
+}
+.welcome-message{
+    padding-top: 530px;
+    height: 570px;
+    line-height: 570px;
+    color:gainsboro;
+}
+.welcome-brand{
+    height: 570px;
+    line-height: 570px;
+    color:gainsboro;
+}
+.text-uppercase{
+    padding-top: 200px;
+}
+.row{
+    padding-top: 200px;
+}
