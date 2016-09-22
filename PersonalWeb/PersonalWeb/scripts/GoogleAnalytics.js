@@ -7,3 +7,7 @@
 
 ga('create', 'UA-84612918-1', 'auto');
 ga('send', 'pageview');
+
+$('#resumeButton').click(function () {
+    ga('send', 'event', 'resume', 'click', 'button');
+});
