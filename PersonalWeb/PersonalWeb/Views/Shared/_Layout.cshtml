@@ -4,9 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - Brook Blackburn</title>
+    @Styles.Render("~/Bootstrap/BootstrapCSS")
     @Styles.Render("~/bundles/css")
 
-   
+
+
 </head>
 
 <body>
@@ -31,7 +33,9 @@
 
         @RenderBody()
     </section>
-  @Scripts.Render("~/bundles/scripts")
+    @Scripts.Render("~/Bootstrap/scripts")
+    @Scripts.Render("~/bundles/scripts")
+
 </body>
 
 
@@ -41,6 +45,6 @@
     <div class="navbar-inverse navbar-fixed-bottom footer-font">
         <p>&copy; @DateTime.Now.Year - Brook Blackburn</p>
     </div>
-    
-   
+
+
 </section>

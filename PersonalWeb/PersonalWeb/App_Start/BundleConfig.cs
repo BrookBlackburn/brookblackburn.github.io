@@ -16,6 +16,12 @@ namespace PersonalWeb.App_Start
                         "~/scripts/bootstrap.min.js",
                         "~/scripts/jquery-{version}.min.js",
                         "~/scripts/GoogleAnalytics.js"));
+            bundles.Add(new StyleBundle("~/Bootstrap/BootstrapCSS",
+                "//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+                .Include("~/content/bootstrap.css"));
+            bundles.Add(new ScriptBundle("~/Bootstrap/scripts",
+                "//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+                .Include("~/scripts/bootstrap.js"));
         }
     }
 }
