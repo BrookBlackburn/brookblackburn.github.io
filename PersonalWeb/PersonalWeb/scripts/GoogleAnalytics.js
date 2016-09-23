@@ -10,4 +10,4 @@ ga('send', 'pageview');
 
 $('#resumeButton').click(function () {
     ga('send', 'event', 'resume', 'click', 'button');
-});
+}());
